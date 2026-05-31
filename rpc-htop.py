@@ -7,9 +7,9 @@ client_id = "1510348392960888852"
 try:
     RPC = Presence(client_id)
     RPC.connect()
-    print("Discord RPC baglantisi basarili.")
+    print("Discord RPC connected succesfully.")
 except Exception as e:
-    print(f"Baglanti hatasi: {e}")
+    print(f"Network error: {e}")
     exit(1)
 
 def make_ansi_bar(percent):
@@ -45,6 +45,6 @@ while True:
         )
         
     except Exception as e:
-        print(f"Hata: {e}")
+        print(f"ERROR: {e}")
         
     time.sleep(15)
