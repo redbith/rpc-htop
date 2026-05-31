@@ -1,0 +1,12 @@
+[Unit]
+Description=Discord Rich Presence htop Status Monitor
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python %h/.local/bin/rpc_htop.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
