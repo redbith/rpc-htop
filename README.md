@@ -1,5 +1,4 @@
 # rpc-htop
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/redbith/rpc-htop)
 
 A minimalist, terminal-style Discord Rich Presence client for Linux that displays real-time CPU, RAM, and battery status using crisp ANSI block characters for a clean, `htop`-inspired look.
 
