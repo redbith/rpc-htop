@@ -10,15 +10,8 @@ A minimalist, terminal-style Discord Rich Presence client for Linux that display
 - **Zero Bloat:** No external emojis or clutter—just pure system status metrics.
 
 ## Preview
+<img width="505" height="181" alt="image" src="https://github.com/user-attachments/assets/fb0df250-3a44-4835-b93f-20db8ca31c7c" />
 
-The presence will display your system stats like this in Discord:
-```text
-Playing a game
-LINUX
-CPU: ████░░░ 52.3%
-RAM: ██░░░░░ 28.1% | 🔌 22.0%
-47:10 elapsed
-```
 
 ## Prerequisites
 
